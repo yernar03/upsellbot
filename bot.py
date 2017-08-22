@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-token = '447327429:AAFEd7T-hvVgwaU6l_WTyNImdUJOuVf8s84'
+token = '345646960:AAH2yDeY8RY-dHd_4jQLkrLpQbIbAcIc4c0'
 bot = telebot.TeleBot(token)
 
 
@@ -11,7 +11,7 @@ def keyboard(message):
     markup.row("❓Вопросы","Примеры🚀")
     markup.row('📞Заказать звонок')
     
-    bot.send_message(message.chat.id,'''{name},приветствую!
+    bot.send_message(message.chat.id, '''{name},приветствую!
 Мы занимаемся созданием виртуальных помощников, задачи которых:
 ✅Увеличение продаж
 ✅Снижение затрат на персонал
