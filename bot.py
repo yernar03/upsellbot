@@ -9,6 +9,7 @@ def keyboard(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     markup.row('🔥Заказать бота🔥')
     markup.row("❓Вопросы","Примеры🚀")
+    markup.row('📞Заказать звонок')
     
     bot.send_message(message.chat.id,'''{name},приветствую!
 Мы занимаемся созданием виртуальных помощников, задачи которых:
